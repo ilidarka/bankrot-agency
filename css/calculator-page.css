@@ -1,0 +1,154 @@
+body {
+  background-image: none;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.red_screen {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.red_screen_wrapper {
+  background: rgba(248, 29, 29, 0.79);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 40px;
+  padding: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.red_screen_wrapper h1 {
+  font-family: "Impact";
+  font-style: normal;
+  font-size: 32px;
+  line-height: 48px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  max-width: 616px;
+}
+.red_screen_wrapper p {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+
+.price_container {
+  margin-bottom: 12px;
+}
+
+.price_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.price_item {
+  max-width: 500px;
+}
+.price_item h2 {
+  font-family: "Gilroy-Medium";
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.price_item p {
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 20px;
+  max-width: 360px;
+}
+.price_item li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price_border {
+  padding-right: 60px;
+  border-right: 1px solid #B8B8B8;
+}
+
+.itogo p {
+  font-family: "Gilroy-Bold";
+}
+.itogo span {
+  color: #6EBE81;
+}
+
+.price_crossed {
+  font-family: "Gilroy-Medium";
+  text-decoration: line-through;
+  color: #F81D1D;
+}
+
+.prices_list_wrapper {
+  padding: 60px 120px;
+  background: #6EBE81;
+  border-radius: 40px;
+  margin-bottom: 40px;
+}
+.prices_list_wrapper h2 {
+  font-family: "Gilroy-Medium";
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.prices_list_wrapper p {
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.prices_list_container_item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.dots {
+  flex: 1 1;
+  width: 70%;
+  border-bottom: 1px dashed #FFFFFF;
+}
+
+.calculator_button_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.calculator_left_button {
+  font-family: "Gilroy-Medium";
+  background-color: #FFFFFF;
+  font-size: 18px;
+  line-height: 21px;
+  color: #6EBE81;
+  padding: 20px;
+  width: 233px;
+  border: 1px solid #6EBE81;
+  box-shadow: 0px 4px 40px rgba(110, 190, 129, 0.25);
+  border-radius: 45px;
+}
+
+.calculator_right_button {
+  font-family: "Gilroy-Medium";
+  background: #6EBE81;
+  box-shadow: 0px 4px 40px rgba(110, 190, 129, 0.25);
+  border-radius: 45px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 233px;
+}/*# sourceMappingURL=calculator-page.css.map */
