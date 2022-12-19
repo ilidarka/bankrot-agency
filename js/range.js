@@ -3,9 +3,16 @@ const progressElement = document.getElementById("progress")
 const inputElement1 = document.getElementById("input1")
 const progressElement1 = document.getElementById("progress1")
 
-inputElement.oninput = (event) => { 
-  progressElement.value = event.target.value
+inputElement.oninput = (event) => {
+  str = event.target.value
+  str = str.replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 '); 
+  progressElement.value = str;
 }
 inputElement1.oninput = (event) => { 
-  progressElement1.value = event.target.value
+  str = event.target.value
+  str = str.replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 '); 
+  progressElement1.value = str;
 }
+
+
+

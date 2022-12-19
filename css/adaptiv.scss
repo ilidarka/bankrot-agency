@@ -171,6 +171,14 @@
         flex-direction: column;
         align-items: flex-start;
     }
+    .menu-container{
+        gap: 10px;
+        position: fixed;
+        right: 25px;
+        top: 100px;
+        z-index: 1000;
+
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -338,6 +346,9 @@
     .menu-container p {
         font-size: 18px;
         line-height: 21px;
+    }
+    .menu-container{
+        top: 60px;
     }
 
     .menu-btn img {

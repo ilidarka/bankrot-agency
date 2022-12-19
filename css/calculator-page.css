@@ -81,6 +81,15 @@ body {
   color: #6EBE81;
 }
 
+.itogo_bg {
+  background: #ede7e7;
+  margin-bottom: 10px;
+}
+.itogo_bg p {
+  margin-bottom: 0px;
+  padding: 2px;
+}
+
 .price_crossed {
   font-family: "Gilroy-Medium";
   text-decoration: line-through;

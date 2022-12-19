@@ -148,10 +148,9 @@ header {
 
 .header_number {
   display: flex;
-  gap: 10px;
   margin-bottom: 4px;
   align-items: center;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  gap: 20px;
 }
 .header_number img {
   width: 24px;
@@ -159,6 +158,9 @@ header {
   margin-top: 3px;
 }
 .header_number p {
+  display: flex;
+  align-items: center;
+  gap: 7px;
   font-family: "Gilroy-Bold";
   font-size: 25px;
   line-height: 29px;
@@ -178,8 +180,8 @@ header {
 
 .menu-container {
   display: flex;
-  gap: 8px;
   align-items: center;
+  gap: 10px;
 }
 .menu-container p {
   font-family: "Gilroy-Bold";
@@ -193,7 +195,6 @@ header {
   display: flex;
   align-items: center;
   cursor: pointer;
-  gap: 2px;
 }
 .menu-btn img {
   width: 28px;
@@ -228,7 +229,7 @@ header {
   max-width: 322px;
 }
 .first-screen button {
-  padding: 13px 56px;
+  padding: 20px 56px;
   font-family: "Gilroy-Medium";
   font-size: 18px;
   line-height: 21px;
@@ -508,7 +509,7 @@ header {
   width: 70px;
   height: 73px;
 }
-.steps_item .steps_item_img_container .steps_number_active_img {
+.steps_item .steps_item_img_container .steps_number_actve_img {
   display: none;
 }
 .steps_item .steps_item_img_container .steps_icon_active_img {
@@ -529,7 +530,7 @@ header {
   display: none;
   transition: 0.5s;
 }
-.steps_item:hover .steps_number_active_img {
+.steps_item:hover .steps_number_actve_img {
   display: block;
   transition: 0.5s;
 }

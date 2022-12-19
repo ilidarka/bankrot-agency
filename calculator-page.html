@@ -83,16 +83,16 @@
                         </select>
                         <div class="calculator_item">
                             <p>Сумма долга, руб.</p>
-                            <input id="progress" class="calculator_input" min="300000000" max="3000000000" type="text">
-                            <input id="input" class="range_input" min="300000000" max="3000000000" type="range">
+                            <input id="progress" class="space calculator_input progress" min="300000000" max="3000000000" type="text">
+                            <input  id="input" class="range_input input" min="300000000" max="3000000000" type="range">
                         </div>
                         <div class="calculator_item">
                             <p>Число кредиторов (всего, от 1 до 99)</p>
-                            <input class="calculator_input" type="text" placeholder="0">
+                            <input  onkeypress='validate(event)' class="space calculator_input" type="text" placeholder="0">
                         </div>
                         <div class="calculator_item">
                             <p>Число дебиторов</p>
-                            <input class="calculator_input" type="text" placeholder="0">
+                            <input onkeypress='validate(event)' class="space calculator_input" type="text" placeholder="0">
                         </div>
                         <p class="radio_header">Укажите ваш статус</p>
                         <div class="calculator_radio">
@@ -107,7 +107,7 @@
                         </div>
                         <div class="calculator_item">
                             <p>Кол-во несовершеннолетних детей на иждивении</p>
-                            <input class="calculator_input" type="text" placeholder="0">
+                            <input  onkeypress='validate(event)' class="space calculator_input" type="text" placeholder="0">
                         </div>
                         <div class="calculator_button_left_container hide">
                             <button>Не могу заполнить</button>
@@ -116,29 +116,29 @@
                     <div class="main_left_container">
                         <div class="calculator_item">
                             <p>Единиц залогового и недвижимого имущества</p>
-                            <input class="calculator_input" type="text" placeholder="0">
+                            <input  onkeypress='validate(event)' class="space calculator_input" type="text" placeholder="0">
                         </div>
                         <div class="calculator_item">
                             <p>Стоимость имущества, руб.</p>
-                            <input id="progress1" class="calculator_input" min="300000000" max="3000000000" type="text">
-                            <input id="input1" class="range_input" min="300000000" max="3000000000" type="range">
+                            <input onkeypress='validate(event)' id="progress1" class="space calculator_input" min="300000000" max="3000000000" type="text">
+                            <input  id="input1" class="range_input" min="300000000" max="3000000000" type="range">
                         </div>
                         <div class="calculator_item">
                             <p>Единиц залогового и недвижимого имущества</p>
-                            <input class="calculator_input" type="text"
-                                placeholder="Из них кредиторов, не являются банками или МФО">
+                            <input  onkeypress='validate(event)' class="space calculator_input" type="text"
+                             placeholder="Из них кредиторов, не являются банками или МФО">
                         </div>
                         <div class="calculator_item">
                             <p>Количество юридических лиц, где Вы учредитель</p>
-                            <input class="calculator_input" type="text" placeholder="0">
+                            <input  onkeypress='validate(event)' class="space calculator_input" type="text" placeholder="0">
                         </div>
                         <div class="calculator_item">
                             <p>Укажите размер Вашего официального дохода, руб.</p>
-                            <input class="calculator_input" type="text" placeholder="0">
+                            <input  onkeypress='validate(event)' class="space calculator_input" type="text" placeholder="0">
                         </div>
                         <div class="calculator_item">
                             <p>Выплаты по алиментам, % от дохода</p>
-                            <input class="calculator_input" type="text" placeholder="0">
+                            <input   onkeypress='validate(event)' class="space calculator_input space" type="text" placeholder="0">
                         </div>
                         <div class="calculator_button_left_container right_button">
                             <button>Рассчитать</button>
@@ -205,7 +205,7 @@
                                 <p>Прочие расходы</p>
                                 <p>≈ 1300 ₽</p>
                             </li>
-                            <li class="itogo">
+                            <li class="itogo itogo_bg">
                                 <p>Итого судебные издержки</p>
                                 <p class="price_crossed">≈ 14 550 ₽</p>
                             </li>
@@ -320,7 +320,7 @@
                                 <p>* Я согласен с условиями политики конфиденциальности.</p>
                                 <form class="consult_input" action="">
                                     <input placeholder="Ваше имя" type="text">
-                                    <input placeholder="Ваше телефон" type="text">
+                                    <input id="number_input" placeholder="Ваш телефон" type="text">
                                 </form>
                                 <button class="confirm">Получить консультацию</button>
                             </div>
@@ -360,6 +360,9 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js" integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/space.js"></script>
+    <script src="js/number_input.js"></script>
     <script src="js/pop-up.js"></script>
     <script src="js/range.js"></script>
     <script src="js/burger.js"></script>
