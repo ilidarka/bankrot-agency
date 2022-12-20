@@ -195,6 +195,7 @@ header {
   display: flex;
   align-items: center;
   cursor: pointer;
+  gap: 10px;
 }
 .menu-btn img {
   width: 28px;
@@ -598,7 +599,7 @@ header {
   margin-bottom: 40px;
 }
 .consult_input_container button {
-  font-family: "Mont";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -631,7 +632,7 @@ header {
 }
 
 .consult_input_img_container img {
-  margin-top: -225px;
+  margin-top: -221px;
 }
 
 .office_container {
@@ -709,17 +710,4 @@ footer {
   font-size: 14px;
   line-height: 16px;
   color: #FFFFFF;
-}
-
-.adaptive_bg {
-  display: none;
-}
-
-.adaptiv {
-  display: none;
-}
-
-button:hover {
-  background-color: #9ff6b3;
-  transition: 0.3s;
 }/*# sourceMappingURL=style.css.map */

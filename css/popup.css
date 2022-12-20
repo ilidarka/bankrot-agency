@@ -100,5 +100,8 @@
   transform: scale(1);
   transition: all 0.3s ease 0.2s;
 }
+.popup_img_container img{
+  margin-top: -254px;
+}
 
 /*# sourceMappingURL=popup.css.map */

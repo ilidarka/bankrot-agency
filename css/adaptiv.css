@@ -137,10 +137,9 @@
   }
   .menu-container {
     gap: 10px;
-    position: fixed;
-    right: 25px;
-    top: 100px;
-    z-index: 1000;
+  }
+  .popup_img_container img {
+    margin-top: 0px;
   }
 }
 @media screen and (max-width: 900px) {

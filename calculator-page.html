@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="css/custom_range.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/calculator-page.css">
-    <link rel="stylesheet" href="css/adaptiv.css">
     <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/adaptiv.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,11 +23,11 @@
 <body>
     <header>
         <div class="content_container header_wrapper">
-            <img class="header_logo" src="./img/logo.svg" alt="">
+            <a href="#"><img class="header_logo" src="./img/logo.svg" alt=""></a>
             <div class="header_contacts_container">
                 <div class="header_number">
-                    <img src="./img/Phone-icon.svg" alt="">
-                    <p>8 800 333 89 13</p>
+                    
+                    <p><img src="./img/Phone-icon.svg" alt="">8 800 333 89 13</p>
                     <p>8 800 333 89 13</p>
                 </div>
                 <p>C 10:00 до 19:00 МСК</p>
@@ -39,8 +39,8 @@
             <div class="menu-container">
                 <div class="menu-btn">
                     <img src="./img/menu-button.svg" alt="">
+                    <p>Меню</p>
                 </div>
-                <p>Меню</p>
             </div>
         </div>
     </header>
@@ -286,7 +286,7 @@
         <img class="footer_bg" src="./img/footer_bg.png" alt="">
         <img class="adaptiv_footer_bg" src="./img/adaptiv_footer_bg.png" alt="">
         <div class="content_container">
-            <img src="./img/footer_logo.svg" class="adaptiv_footer_logo adaptiv" alt="">
+            <a href=""><img src="./img/footer_logo.svg" class="adaptiv_footer_logo adaptiv" alt=""></a>
             <div class="office_container">
                 <h1>Наш офис:</h1>
                 <p>г. Москва, ул. Профсоюзная, д.84/32, стр.14 <a href="#">посмотреть на карте</a></p>
@@ -296,9 +296,9 @@
                     <h1>Наш телефон:</h1>
                     <p>8 800 333 89 13</p>
                 </div>
-                <img class="footer_img" src="./img/footer_logo.svg" alt="">
+                <a href=""><img class="footer_img" src="./img/footer_logo.svg" alt=""></a>
                 <div class="rigts_container">
-                    <img src="./img/studio-logo 1.svg" alt="">
+                    <a href=""><img src="./img/studio-logo 1.svg" alt=""></a>
                     <p>2022. © Все права защищены</p>
                 </div>
             </div>
@@ -320,11 +320,11 @@
                                 <p>* Я согласен с условиями политики конфиденциальности.</p>
                                 <form class="consult_input" action="">
                                     <input placeholder="Ваше имя" type="text">
-                                    <input id="number_input" placeholder="Ваш телефон" type="text">
+                                    <input id="number_input1"  data-mask="+7(999) 999-99-99" placeholder="Ваш телефон" type="text">
                                 </form>
                                 <button class="confirm">Получить консультацию</button>
                             </div>
-                            <div class="consult_input_img_container">
+                            <div class="consult_input_img_container popup_img_container">
                                 <img src="./img/woman-img.svg" alt="">
                             </div>
                         </div>
@@ -350,7 +350,7 @@
                                     <p>Наши специалисты свяжутся с вами в ближайшее время.</p>
 
                                 </div>
-                                <div class="consult_input_img_container">
+                                <div class="consult_input_img_container popup_img_container">
                                     <img src="./img/woman-img.svg" alt="">
                                 </div>
                             </div>
@@ -362,6 +362,7 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js" integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/space.js"></script>
+    <script src="js/inputmask.js"></script>
     <script src="js/number_input.js"></script>
     <script src="js/pop-up.js"></script>
     <script src="js/range.js"></script>
