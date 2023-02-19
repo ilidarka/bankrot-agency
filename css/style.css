@@ -897,6 +897,10 @@ footer {
 .questions{
   padding-bottom: 120px;
 }
+.info_bottom_ques span{
+  color:#536099 ;
+}
 .drop_pb{
+  margin-top: -60px;
   padding-bottom: 70px;
 }

@@ -88,11 +88,12 @@
   .consult_input input {
     width: 100%;
   }
-  .white_bg {
-    display: none;
+  .mt_consult .white_bg img{
+      top: 60px;
+
   }
-  .green_bg {
-    display: none;
+  .mt_consult .green_bg img{
+      top: 47px;
   }
   .consult_input_img_container img {
     margin-top: 0px;
@@ -340,6 +341,12 @@
     font-weight: 400;
     font-size: 48px;
   }
+  .form_left_content{
+    width: 300px;
+  }
+  .form_right_content{
+    width: 300px;
+  }
   .form_left_content h1{
     font-size: 31px;
     text-align: center;
@@ -351,7 +358,36 @@
   }
   .ques_btn{
     padding: 12px 5px;
-    font-size: 8px;
+    font-size: 10px;
     line-height: 26px;
+  }
+  .head{
+    padding: 30px 20px 40px 16px;
+  }
+  .head img{
+    margin-bottom: -10px;
+    width: 28px;
+    height: 41px;
+  }
+  .dropdown_text h1 {
+    padding: 0;
+    margin: 0;
+  }
+  .dropdown_text p{
+    width: 274px;
+    font-size: 16px;
+    margin-top: -10px;
+  }
+   .head .plus{
+    width: 16px;
+    height: 26px;
+  }
+  .head .minus{
+    width: 16px;
+    height: 26px;
+  }
+  .consult_input_container p{
+    text-align: center;
+    margin-top: 30px;
   }
 }/*# sourceMappingURL=adaptiv.css.map */
