@@ -320,6 +320,7 @@ header {
   line-height: 48px;
   color: #6EBE81;
   margin-bottom: 9px;
+  text-align: start;
 }
 .service_item .service_item_text p {
   font-family: "Gilroy-Regular";
@@ -467,10 +468,6 @@ header {
   font-size: 15px;
   line-height: 18px;
   background-color: #FFFFFF;
-}
-
-.steps {
-  margin-bottom: 250px;
 }
 
 .steps_container h1 {
@@ -711,3 +708,195 @@ footer {
   line-height: 16px;
   color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
+
+/* ---------------------------------EG */
+.need_bankrot_items{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+  .need_bankrot_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .need_bankrot_item img{
+    width: 81px;
+    height: 78px;
+  }
+  .need_bankrot_item p{
+    margin-top: 23px;
+    font-family: "Gilroy-Regular";
+    font-size: 16px;
+    line-height: 26px;
+    color: #7D7D7D;
+    margin-bottom: 16px;
+    max-width: 223px;
+    text-align: center;
+
+  }
+  .mt_consult{
+    margin-top: 100px;
+    background:#fff;
+    padding-top: 100px;
+    z-index: -2;
+  }
+  .mt_consult .white_bg img{
+    top: 161px;
+  }
+.mt_consult .green_bg img{
+  top: 141px;
+}
+  .mt_consult_wrapper{
+    margin-top: 200px;
+  }
+  .docs{
+    padding-bottom: 100px;
+  }
+  .items_doc{
+    display: flex;
+    justify-content: space-between;
+  }
+  .item_doc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px 0 40px 0;
+    width: 560px;
+
+
+    border-radius: 40px;
+  }
+  .item_doc p{
+    background: #6EBE81;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 21px;
+    padding: 9px;
+    color: #FFFFFF;
+  }
+  .item_doc a{
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: rgba(83, 96, 153, 0.8);
+    margin-top: 12px;
+  }
+.item_doc img{
+  margin-top: 40px;
+}
+.info_bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.info_bottom h3{
+  font-family: 'Gilroy-Medium';
+  font-size: 16px;
+  line-height: 24px;
+  margin: 30px 0 20px 0;
+
+
+  color: #000000;
+}
+.info_bottom p{
+  background: none;
+  margin-top: 12px;
+  font-family: 'Gilroy-Regular';
+  font-size: 16px;
+  line-height: 27px;
+  color: #7D7D7D;
+}
+.doc_btn{
+  margin-top: 21px;
+}
+.form{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 60px 60px 40px 60px;
+
+  border-radius: 60px;
+}
+.form_left_content h1{
+  font-family: 'Impact';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #6EBE81;
+  text-align: start;
+  max-width: 355px;
+  margin-bottom: 20px;
+}
+.form p{
+  font-family: 'Gilroy-Medium';
+  font-size: 16px;
+  line-height: 26px;
+  color: #7D7D7D;
+  opacity: 0.8;
+  margin-bottom: 14px;
+  max-width: 436px;
+
+
+}
+.question{
+  display: flex;
+  align-items: start;
+  margin-bottom: 15px;
+  gap: 11px;
+}
+.question p{
+  opacity: 1;
+  margin: 0;
+}
+.form_right_content input{
+  font-family: "Gilroy-Light";
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  padding: 14px 30px;
+  background: #FFFFFF;
+  border: 1px solid rgba(184, 184, 184, 0.8);
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+.wrapp_input{
+  display: flex;
+  flex-direction: column;
+
+}
+.form{
+  display: flex;
+  justify-content: space-between;
+}
+.ques_btn{
+  text-transform: uppercase;
+  text-align: center;
+  padding: 12px 45px;
+  width: 100%;
+  font-family: "Gilroy-Light";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 26px;
+  color: #FFFFFF;
+  background: #6EBE81;
+  box-shadow: 0px 4px 40px rgb(110 190 129 / 25%);
+  border-radius: 45px;
+}
+.form_right_content p{
+  margin-top: 12px;
+}
+.questions{
+  padding-bottom: 120px;
+}
+.drop_pb{
+  padding-bottom: 70px;
+}

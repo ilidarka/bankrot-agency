@@ -83,6 +83,13 @@ if (allDropdowns) {
     })
 }
 
-let firstDropdownList = allDropdowns[0].querySelector('.dropdown__list__')
-firstDropdownList.style.height = '1676px';
-firstDropdownList.style.display = 'flex';
+if(allDropdowns.length > 1 && allDropdowns.length < 4){
+    let firstDropdownList = allDropdowns[0].querySelector('.dropdown__list__')
+    firstDropdownList.style.height = '1676px';
+    firstDropdownList.style.display = 'flex';
+}
+else{
+    let firstDropdownList = allDropdowns[1].querySelector('.dropdown__list__')
+    firstDropdownList.style.height = '1676px';
+    firstDropdownList.style.display = 'flex';
+}

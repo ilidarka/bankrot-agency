@@ -233,6 +233,18 @@
     gap: 12px;
     justify-content: flex-start;
   }
+  .items_doc{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .form{
+    flex-direction: column;
+    align-items: center;
+  }
+  .form_right_content p{
+    margin: 12px 40px 20px 0;
+  }
 }
 @media screen and (max-width: 710px) {
   header {
@@ -275,6 +287,11 @@
     width: 20px;
     height: 12px;
     margin-top: 0px;
+  }
+  .need_bankrot_items{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
   }
 }
 @media screen and (max-width: 580px) {
@@ -322,5 +339,19 @@
   .first-screen h1 {
     font-weight: 400;
     font-size: 48px;
+  }
+  .form_left_content h1{
+    font-size: 31px;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+  .form .info_bottom_ques{
+    font-size: 10px;
+    line-height: 26px;
+  }
+  .ques_btn{
+    padding: 12px 5px;
+    font-size: 8px;
+    line-height: 26px;
   }
 }/*# sourceMappingURL=adaptiv.css.map */
