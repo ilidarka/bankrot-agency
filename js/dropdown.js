@@ -11,14 +11,13 @@ if (allDropdowns) {
         let dropdownListPadding = currentpadding
        
         allDropdowns[0].style.marginBottom = 60 + "px"
-        dropdownList.style.height = '0px';
-        dropdownList.style.overflow = 'hidden';
+
         dropdownList.style.padding = '0px'
         dropdownList.style.display = 'none';
-        
-        
 
-       
+
+
+
 
         dropdown.addEventListener('click', () => {
             allDropdowns.forEach(dropdown2 => {
@@ -32,9 +31,7 @@ if (allDropdowns) {
             })
             if (dropdown.classList.contains('active')) {
                 dropdown.classList.remove('active')
-                dropdownList.style.height = `0px`;
                 dropdownList.style.padding = '0px';
-                dropdownList.style.height = `0px`;
                 dropdownList.style.padding = '0px'
                 minus.classList.add('hidden')
                 plus.classList.remove('hidden')
@@ -53,7 +50,6 @@ if (allDropdowns) {
                 plus.classList.add('hidden')
                 
                 setTimeout(() => {
-                    dropdownList.style.height = `${dropdownListHeight}px`;
                     dropdownList.style.padding = `${dropdownListPadding}`;
 
                 }, 50)
@@ -65,7 +61,6 @@ if (allDropdowns) {
                 allDropdowns.forEach(dropdown2 => {
 
                     let dropdownList2 = dropdown2.querySelector('.dropdown__list__')
-                    dropdownList2.style.height = `0px`;
                     dropdownList2.style.padding = '0px';
                     dropdown_head.classList.remove('head_active')
                     minus.classList.add('hidden')
@@ -88,12 +83,10 @@ if(allDropdowns.length > 1 && allDropdowns.length < 4) {
     let firstDropdownList = allDropdowns[0].querySelector('.dropdown__list__')
     firstDropdownList.style.display = 'flex';
     let height = firstDropdownList.scrollHeight;
-    firstDropdownList.style.height = Number(height) + "px";
 }
 else{
     let firstDropdownList = allDropdowns[1].querySelector('.dropdown__list__')
     firstDropdownList.style.display = 'flex';
     let height = firstDropdownList.scrollHeight;
-    firstDropdownList.style.height = height + "px";
 
 }
