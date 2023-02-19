@@ -904,3 +904,13 @@ footer {
   margin-top: -60px;
   padding-bottom: 70px;
 }
+.steps_item_img_container span{
+  font-family: 'Impact';
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 73px;
+  letter-spacing: 0.1em;
+}
+.adaptiv{
+  display: none;
+}
